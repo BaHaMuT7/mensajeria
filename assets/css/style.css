@@ -1,0 +1,122 @@
+/* 1 Utilitario */
+
+/* 1.1 fondos */
+.bg-white {
+    background-color: #FFF;
+}
+
+.bg-platinum {
+    background-color: #E8EBE4;
+}
+
+.bg-gray {
+    background-color: #BEC1BB;
+}
+
+.bg-bluebell {
+    background-color: #A491D2;
+}
+
+.bg-soap {
+    background-color: #CDC3E6;
+}
+
+.bg-palelavender {
+    background-color: #D4DCFF;
+}
+
+.bg-darkjungle {
+    background-color: #1B1F21;
+}
+
+.bg-outerspace {
+    background-color: #444749;
+}
+
+.bg-oldsilver {
+    background-color: #828485;
+}
+
+/* 1.2 color */
+.color-white {
+    color: #FFF;
+}
+
+.color-platinum {
+    color: #E8EBE4;
+}
+
+.color-gray {
+    color: #BEC1BB;
+}
+
+.color-bluebell {
+    color: #A491D2;
+}
+
+.color-soap {
+    color: #CDC3E6;
+}
+
+.color-palelavender {
+    color: #D4DCFF;
+}
+
+.color-darkjungle {
+    color: #1B1F21;
+}
+
+.color-outerspace {
+    color: #444749;
+}
+
+.color-oldsilver {
+    color: #828485;
+}
+
+
+/* 1.3 Fuentes */
+.robto-large {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.813rem;
+}
+
+.roboto-medium {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.robto-small {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+}
+
+.robto-xsmall {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.625rem;
+}
+
+.sans-large {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.813rem;
+}
+
+.sans-medium {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.sans-small {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+}
+
+.sans-xsmall {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.625rem;
+}
+
+/* Contenido principal */
+.f-principal {
+    display: flex;
+}
