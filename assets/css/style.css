@@ -37,6 +37,14 @@
     background-color: #828485;
 }
 
+.bg-graygodrick {
+    background-color: #F8F8F8;
+}
+
+.bg-graymalenia {
+    background-color: #F2F2F2;
+}
+
 /* 1.2 color */
 .color-white {
     color: #FFF;
@@ -72,6 +80,14 @@
 
 .color-oldsilver {
     color: #828485;
+}
+
+.color-graygodrick {
+    color: #F8F8F8;
+}
+
+.color-graymalenia {
+    color: #F2F2F2;
 }
 
 
@@ -116,27 +132,43 @@
     font-size: 0.625rem;
 }
 
-/* Contenido principal */
+/* 1.4 Avatares */
+.avatar-tiny {
+    border-radius: 50%;
+    border: solid 3px #E8EBE4;
+    height: 50px;
+    width: 50px;
+}
+
+.avatar-normal {
+    border-radius: 50%;
+    height: 75px;
+    border: solid 2px #E8EBE4;
+    width: 75px;
+}
+
+/* Utilidad bordes */
+.borde-util {
+    border: solid 2px black;
+}
+
+/* 2 Contenido principal */
 .f-principal {
     display: flex;
     flex-direction: row;
-
-    /*
-    justify-content: space-evenly;
-    align-items: center;
-    */
 }
 
 .i-contactos {
     flex-grow: 1;
     height: 100vh;
-    width: 20vw;
+    width: 22vw;
 }
 
 .i-mensajes {
     flex-grow: 1;
     height: 100vh;
     width: 100vw;
+    border-left: solid 3px #F2F2F2;
 }
 
 .f-mensajes {
@@ -151,4 +183,89 @@
 .f-mensajes img {
     height: 200px;
     width: 200px;
+}
+
+/* 3 Contactos */
+
+/* 3.1 Usuario activo */
+.f-usuario-activo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-estado {
+    display: flex;
+    margin-left: 2rem;
+    padding-top: 0.5rem;
+}
+
+.padding-left-estado {
+    padding-left: 0.5rem;
+}
+
+.padding-top-estado {
+    padding-top: 7px
+}
+
+
+/* 3.2 Operaciones */
+.icono {
+    font-size: 2rem;
+    padding-top: 1.8rem;
+    color: #BEC1BB;
+}
+
+.padding-izq-operaciones {
+    padding-left: 1rem;
+}
+
+.i-operaciones {
+    margin-right: 2rem;
+}
+
+
+/* 3.3  Nuevo chat */
+.f-agregar-contacto {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-agregar-contacto button {
+    width: 50%;
+    height: 25%;
+    border: none;
+}
+
+/* 3.3 Nuevo chat */
+
+.f-agregar-contacto button:hover {
+    background-color: #CDC3E6;
+}
+
+.f-agregar-contacto button:focus {
+    background-color: #BEC1BB;
+}
+
+/* 3.4 Personas */
+
+.f-persona {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.padding-y {
+    padding-bottom: 0.3rem;
+    padding-top: 0.6rem;
+}
+
+.padding-left-inner-contacto {
+    padding-left: 0.8rem;
+}
+
+/*3.4 Separador */
+hr {
+    border: solid 2px #E8EBE4;
 }
