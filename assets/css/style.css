@@ -156,17 +156,18 @@
 .f-principal {
     display: flex;
     flex-direction: row;
+    height: 1253px;
+    width: 1920px;
 }
 
 .i-contactos {
-    flex-grow: 1;
-    height: 100vh;
-    width: 22vw;
+    height: 1253px;
+    width: 480px;
 }
 
 .i-mensajes {
     height: 1253px;
-    width: 100vw;
+    width: 1440px;
     border-left: solid 3px #F2F2F2;
 }
 
